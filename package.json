@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amirsanni/livestream-server.git"
+    "url": "git+https://github.com/thejaswin123/WebRTC.git"
   },
   "keywords": [
     "LiveStream",
@@ -26,7 +26,7 @@
   "author": "Thejaswin S<thejas2002@yahoo.in>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/amirsanni/livestream-server/issues"
+    "url": "https://github.com/thejaswin123/WebRTC/issues"
   },
-  "homepage": "https://github.com/amirsanni/livestream-server#readme"
+  "homepage": "https://github.com/thejaswin123/WebRTC#readme"
 }
