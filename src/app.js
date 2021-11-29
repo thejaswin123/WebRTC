@@ -1,3 +1,4 @@
+require("dotenv").config();
 let express = require( 'express' );
 let app = express();
 let server = require( 'http' ).Server( app );
@@ -15,5 +16,5 @@ app.get( '/', ( req, res ) => {
 
 
 io.of( '/stream' ).on( 'connection', stream );
-
-server.listen( 3000 );
+const port =process.env.PORT ||3000;
+server.listen(port);
